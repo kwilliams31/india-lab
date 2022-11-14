@@ -47,6 +47,10 @@ body{
     width: 198px;
   }
 
+  #rememberMe{
+    margin-left: 20px;
+  }
+
   #submitButton{
     background-color: #859eca;
     margin-top: 10px;

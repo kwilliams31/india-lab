@@ -1,6 +1,9 @@
 // doctype,, putting $ before function, jq
 // using jq to get button to change and show when something else is selected
 // checkbox 
+
+$(function () {
+
 function myFunction() {
     // Get the checkbox
     var checkBox = document.getElementById("myCheck");
@@ -30,7 +33,26 @@ function myFunction() {
   //   }
   // }
 
-  
+// $('#userArray').append(
+//   `
+//   <div class="card col-md-4">
+//   <div class="card-body">
+//     <h4 class="card-title">${ userArray[index].name }'s Games</h4>
+//     <a id="button" class="btn btn-secondary" href=${ gamerArray[index].gameUrl } target="_blank">${ gamerArray[index].gameName }</a>
+//   </div>
+// </div>
+//   `
+// )
+
+//  let userArray = [
+//   {
+//     email: "email"
+//     pwd: "password"
+//   }
+//  ]
+
+
+
 
 
   /*
@@ -50,3 +72,5 @@ function displayuserEmail() {
   //do something with it
 // need to put info somewhere??
 }
+
+});
