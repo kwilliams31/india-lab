@@ -39,16 +39,17 @@ body{
     float: left;
   }
 
-  #userEmail {  
+  #email {  
     width: 280px;
    }
 
-  #Userpwd{
+  #pwd{
     width: 198px;
   }
 
-  #rememberMe{
-    margin-left: 20px;
+  #loadData{
+    background-color: #859eca;
+    color: black;
   }
 
   #submitButton{
