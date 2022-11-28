@@ -104,6 +104,16 @@ function getFish(fishType) {
     return ["Thank you"];
   }
 }
+
+// displaying input from user
+function testVariable() {
+  var strText = document.getElementById("email").value;          
+  var strText1 = document.getElementById("pwd").value;
+  var strText2 = document.getElementById("phone").value;
+  var result = 'email: ' + strText + ' password: ' + strText1 + ' phone: ' + strText2;
+  document.getElementById('spanResult').textContent = result;
+   
+}
   
 // input value from submit bar
   var el = document.getElementById("submitButton");
