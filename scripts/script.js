@@ -111,10 +111,25 @@ function getFish(fishType) {
 // click event on that element, run named f/n
 el.addEventListener("click", displayemail);
 
+
 function displayemail() {
+  el.preventDefault();
   // grab the value of the user input
   var elName = document.getElementById("email");
   //do something with it
 // need to put info somewhere??
 }
+
+$("#submitButton").click(function () {
+  if ($("#email").val()) {
+    console.log("bro, the user has made an input");
+    $("#email").removeClass("error");
+  } else {
+    console.log("bro, the user did not input");
+    $("#email").removeClass("success").addClass("error").focus();
+    //bring focus to it
+    //change the placeholder text
+  }
+});
+
 
