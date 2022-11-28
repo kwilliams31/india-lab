@@ -105,16 +105,16 @@ function getFish(fishType) {
   }
 }
   
-// // input value from submit bar
-//   var el = document.getElementById("submitButton");
+// input value from submit bar
+  var el = document.getElementById("submitButton");
 
-// // click event on that element, run named f/n
-// el.addEventListener("click", displayuserEmail);
+// click event on that element, run named f/n
+el.addEventListener("click", displayemail);
 
-// function displayuserEmail() {
-//   // grab the value of the user input
-//   var elName = document.getElementById("userEmail");
-//   //do something with it
-// // need to put info somewhere??
-// }
+function displayemail() {
+  // grab the value of the user input
+  var elName = document.getElementById("email");
+  //do something with it
+// need to put info somewhere??
+}
 
